@@ -194,3 +194,11 @@ self.addEventListener('install', (event) => {
     })
   );
 });
+
+document.getElementById('enter-button').addEventListener('click', function () {
+  document.getElementById('welcome-screen').style.opacity = 0;
+  setTimeout(function () {
+    document.getElementById('welcome-screen').style.display = 'none';
+    document.getElementById('home-page').classList.add('show');
+  }, 1000);
+});
