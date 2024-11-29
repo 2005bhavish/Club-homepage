@@ -165,7 +165,7 @@
 .hero-section {
   position: relative;
   background: radial-gradient(circle, #0d1117, #000000);
-  background: url('stars-bg3.png') center center/cover no-repeat, black;
+  background: url('stars-bg3.png') center center/cover no-repeat;
 }
 
 
